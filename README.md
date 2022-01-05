@@ -6,6 +6,11 @@
 ```
 sudo ln -s /sbin/lspci /usr/bin/lspci
 ```
+For Fedora 35+
+```
+dnf copr enable aflyhorse/libjpeg 
+sudo dnf install libjpeg8 
+```
 
 ### Mount & Blade: Warband
 ```
