@@ -6,7 +6,7 @@
 ```
 sudo ln -s /sbin/lspci /usr/bin/lspci
 ```
-For Fedora 35+
+Borked on Fedora 35+! Game crashes silently even after resolving library issue with the below commands
 ```
 sudo ln -s /usr/lib64/libcurl.so.4 /usr/lib64/libcurl-gnutls.so.4
 dnf copr enable aflyhorse/libjpeg 
